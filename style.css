@@ -1,0 +1,88 @@
+img{
+height: 500px;
+border-radius: 5px;
+}
+
+header{
+    margin: 20px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div1{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    line-height: 25px;
+
+}
+
+.fotos{
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Pelis{
+    background-image: url(/images/cine.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#Plantas{
+    background-image: url(/images/plantas.webp);
+    background-position: center;
+    background-size: cover;
+}
+#Lego{
+    background-image: url(/images/lego.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.div2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.otros{
+    width: 15vw;
+    height: 15vw;
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+hr{
+    margin-bottom: 50px;
+}
+
+footer{
+    height: 300px;
+    background-color: black;
+    margin: 0;
+    margin-top: 30px;
+
+}
